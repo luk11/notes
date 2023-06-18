@@ -1,22 +1,21 @@
-site_name: obsidian-mkdocs template
+site_name: Interrail notes
 
 theme:
-    name: 'material'
-    palette:
-
+  name: 'material'
+  palette:
     # Light mode
-    - media: "(prefers-color-scheme: light)"
+    - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: pink
+      primary: coral
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
     # Dark mode
-    - media: "(prefers-color-scheme: dark)"
+    - media: '(prefers-color-scheme: dark)'
       scheme: slate
-      primary: pink
+      primary: coral
       accent: blue
       toggle:
         icon: material/toggle-switch
@@ -50,11 +49,10 @@ markdown_extensions:
 
 plugins:
   - search
-  - roamlinks 
-
+  - roamlinks
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid/dist/mermaid.min.js 
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
